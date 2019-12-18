@@ -2,7 +2,7 @@
   Syntaxe de base
  * **************/
 //  1.Je vérifie toujours que ma page js et mon fichier hyml sont connectés :
-alert('Salut JS');
+alert('Okay JS');
 
 // deux slashes pour un commentaire sur la ligne (ctrl + /)
 /*
