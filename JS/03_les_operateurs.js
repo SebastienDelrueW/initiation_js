@@ -86,9 +86,9 @@ console.log(typeof unBoolean);// retourne boolean
 
 // La déclaration CONST permet de créer une constante accessible UNIQUEMENT en lecture. Sa valeur ne pourra pas être modifiée par des réaffectations ultérieurs. Une constante ne peut pas être déclarée de nouveau.
 
-const HOST ="localhost";
-const USER ="root";
-const PASSWORD ="mysql";
+const HOST = "localhost";
+const USER = "root";
+const PASSWORD = "mysql";
 /*
 Donc il est impossible de faire cela :
 // const USER = "Sébastien";
