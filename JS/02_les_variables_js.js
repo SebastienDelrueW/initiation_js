@@ -29,6 +29,12 @@ var prenom;
 //pour lui affecter une valeur :
 var prenom = 'Sébastien';
 
+
+const PRENOM2 = 'Jean';
+const MAJEUR = '18';
+// variable qui ne bouge pas
+
+
 // afficher la valeur variable
 // pour tester une valeur on ouvre la console dans le navigateur (f12) puis on écrit le nom de variable à droite des ">>" puis ENTER
 
@@ -37,7 +43,7 @@ var prenom = 'Sébastien';
 
 // c- On écrit dans le script (code)
 console.log(prenom);
-
+console.log(prenom2);
 
 // Il est possible d'écrire plusieurs variables sur une seule ligne :
 var nb1, nb2, nb3;

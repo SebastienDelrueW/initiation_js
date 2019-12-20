@@ -14,5 +14,5 @@ ici un commentaire sur plusieurs lignes
 /*  
 2 manières d'afficher une boite de dialogue :
 
- => alert('Super, tu es arrivée sur mon site !')
+ => alert('Super ma chérie, tu es arrivée sur mon site !')
  => prompt('Question : on est quel jour ?'); avec la fonction prompt je dialogue directement avec l'utilisateur */
