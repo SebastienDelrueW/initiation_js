@@ -48,11 +48,13 @@ var Prenoms = ['Jean', 'Marc', 'Matthieu', 'Luc', 'Pierre', 'Paul', 'Jacques', '
 
 
 for (let i = 0; i < Prenoms.length; i++) {
-    document.write('<p> [Jean]   Marc   Matthieu   Luc   Pierre   Paul  Jacques   Hugo   : <em style="background:yellow;">' + i + '</em></p>');
-
+    document.write('<p> Prenoms : <em style="background:yellow;">' + i + '</em></p>');
 console.log(Prenoms[i]);
 }
+
 document.write("<hr>");
+
+
 
 
 
