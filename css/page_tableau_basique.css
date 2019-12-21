@@ -22,6 +22,10 @@ body ::after {
         width: 50%;
 
       }
+      caption, table {
+        border-bottom: 2%;
+        margin-top: 12px;
+      }
 
 /*div {
         width: 120px;
@@ -33,6 +37,7 @@ table {
     width: 92%;
     border-collapse: collapse;
     border: 3px solid rgb(0, 94, 128);
+    border-bottom: 15px;
   }
   
   thead th:nth-child(1) {
