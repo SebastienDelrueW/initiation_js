@@ -1,0 +1,350 @@
+body
+{
+	margin: 10px 0 ;
+	padding: 0 ;
+	text-align: center ;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif ;
+	background: #dea ;
+}
+
+div#conteneur
+{
+	width: 770px ;
+	margin: 0 auto ;
+	text-align: left ;
+	border: 2px solid rgb(68, 149, 187) ;
+	background: #fff ;
+}
+
+h1#header
+{
+	height: 258px ;
+	margin: 0 ;
+	background-image: url(../img/apple.jpg);
+}
+
+h1#header a
+{
+	width: 400px ;
+	height: 70px ;
+	display: block ;
+	background: url(../img/title.gif) no-repeat ;
+	position: relative ;
+	left: 350px ;
+	top: 15px ;
+	text-indent: -5000px ;
+}
+
+
+ul#menu
+{
+	height: 35px ;
+	margin: 0 ;
+	padding: 0 ;
+	background: url(../img/bg_menu.gif) repeat-x 0 -25px ;
+	list-style-type: none ;
+}
+		
+ul#menu li
+{
+	float: left ;
+	text-align: center ;
+}
+
+ul#menu li a
+{
+	width: 130px ;
+	line-height: 25px ;
+	font-size: 1.2em ;
+	font-weight: bold ;
+	letter-spacing: 2px ;
+	color: #fff ;
+	display: block ;
+	text-decoration: none ;
+	border-right: 2px solid #dea ;
+}
+
+ul#menu li a:hover
+{
+	background-image: url() repeat-x 0 0 ;
+}
+
+div#contenu
+{
+	padding: 0 25px 0 100px ;
+	background: url(../) no-repeat 15px 15px ;
+}
+
+div#contenu h2
+{
+	padding-left: 25px;
+    line-height: 25px;
+    font-size: 1.4em;
+    background: url(little_apple.gif) no-repeat left bottom;
+    color:
+    #2241bb;
+    border-bottom: 1px solid
+    #8355b1;
+}
+
+div#contenu h3
+{
+    margin-left: 15px;
+    padding-left: 5px;
+    border-bottom: 1px solid
+    rgb(34, 126, 187);
+    border-left: 3px solid
+    rgb(34, 95, 187);
+    color:
+    #b22;
+}
+
+div#contenu p
+{
+	text-align: justify ;
+	text-indent: 2em ;
+	line-height: 1.7em ;
+}
+
+div#contenu a
+{
+	color: #ff00a7;
+}
+
+div#contenu a:hover
+{
+	color: #2248bb;
+}
+
+p#footer
+{
+	margin: 0 ;
+	padding-right: 10px ;
+	line-height: 30px ;
+	text-align: right ;
+	color: rgb(56, 75, 186) ;
+}
+
+pre
+{
+	overflow: auto ;
+	background: rgb(170, 238, 232) ;
+	border: 2px solid rgb(34, 90, 187) ;
+	padding: 5px 0 0 5px ;
+	font-size: 1.2em ;
+}
+
+* html pre
+{
+	width: 636px ;
+}
+
+pre span
+{
+	color: rgb(0, 71, 102) ;
+}
+
+pre span.comment
+{
+	color: #b30000 ;
+}
+/* espacement */
+
+body {
+    background-image : url ();
+    background-repeat: no-repeat;
+  
+    }
+  body ::after {
+          background-image: url(../img/sddl.jpg);
+          opacity: 0,2;
+          
+        }
+        
+        hr {
+          background-image: url(../img/imgk.jpg);
+          width: 100%;
+          border-radius: 80%;
+          /* dotter =pointillé */
+          border: 5px solid #60014e;
+            /* la marge intérieur de l'élément : padding */
+          padding: 15px;
+          width: 50%;
+  
+        }
+        caption, table {
+          border-bottom: 2%;
+          margin-top: 12px;
+        }
+  
+  /*div {
+          width: 120px;
+          height: 120px;
+        }*/
+  
+  table {
+      table-layout: fixed;
+      width: 92%;
+      border-collapse: collapse;
+      border: 3px solid rgb(0, 94, 128);
+      border-bottom: 15px;
+    }
+    
+    thead th:nth-child(1) {
+      width: 30%;
+    }
+    
+    thead th:nth-child(2) {
+      width: 20%;
+    }
+    
+    thead th:nth-child(3) {
+      width: 15%;
+    }
+    
+    thead th:nth-child(4) {
+      width: 35%;
+    }
+    
+    th, td {
+      padding: 20px;
+    }
+  
+  
+    /* typographie */
+  
+  html {
+      font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    }
+    
+    thead th, tfoot th {
+      font-family: 'Rock Salt', cursive;
+    }
+    
+    th {
+      letter-spacing: 2px;
+    }
+    
+    td {
+      letter-spacing: 1px;
+    }
+    
+    tbody td {
+      text-align: center;
+    }
+    
+    tfoot th {
+      text-align: right;
+    }
+  
+  
+  
+  tbody tr:nth-child(odd) {
+      background-color: #c9c994;
+    }
+    
+    tbody tr:nth-child(even) {
+      background-color: #e495e4;
+    }
+    
+    tbody tr {
+      background-image: url(../img/imgk.jpg);
+    }
+    
+    table {
+      background-color: #33b8ff;
+    }
+  
+    /*Les styles pour la page tableau*/
+  
+  /* l'étoile ou astérisque sélectionne tous les éléments de ma page html */
+  /* font-family nous permet de définir la typo utilisée sur une page : les typos se présentent dans l'ordre souhaité */
+  /* lorsque le nom est constitué de plusieurs termes on doit l'encadrer d'apostrophe ou de "quotes" */
+  
+  *{
+    font-family: 'Times New Roman', Times, serif;
+  }
+   
+  
+  
+  body {
+    background-color: burlywood;
+    /* largeur de la page 50% de la taille de l'écran du navigateur */
+    width: 50%;
+    /* la marge exterieur de l'élément, avec une gestion automatique des marges pour que le contenu de body soit centré dans la fenêtre */
+    margin: auto;
+  }
+  
+  /* les styles pour le tableau */
+  
+  /* Border 3 valeurs : épaisseur, type de filet, couleur */
+  
+   
+  caption {
+  background-color: #E6E6FA;
+    /* border: 3px solid #483D8B; */
+    padding: 10px;
+    /* border-collapse: collapse; */
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  /* il est possible de déclarer plusieurs éléments et de leur affecter les mêmes propriétés        les éléments sont séparés par une virgules */
+  thead, tfoot {
+    background-color: rgb(154, 194, 196);
+    border: 5px solid rgb(129, 0, 0)
+  }
+  
+  tbody {
+    /* border: 8px solid black; */
+    border: 1px solid black;
+  }
+  
+  th {
+    /* dotter =pointillé */
+    border: 2px dotted #565545;
+    /* la marge intérieur de l'élément : padding */
+    padding: 15px;
+    width: 25%;
+  }
+  td {
+    border: 1px dotted #565545;
+    text-align: center;
+    padding: 5px;
+  }
+  /* td:first-child le 1er td pour aligner à gauche le texte dans la première cellule de chaque rangée */
+  td:first-child {
+    text-align: left;
+    background-color: rgb(144, 192, 192);
+  }
+   
+  a {
+    color: rgb(89, 80, 80);
+    text-transform: initial;
+    font-family: 'Times New Roman', Times, serif}
+
+img {
+    width: 15%;
+    border-radius: 25%;
+    padding-right: 5px;
+    margin-block: 15px;
+    border-image: 15%;
+        border-image-outset: 0;
+        border-image-repeat: stretch;
+        border-image-slice: 15%;
+        border-image-source: none;
+        border-image-width: 1;
+    border: 1px solid
+    burlywood;
+    padding: 3px;
+    }
+  p {
+       font-weight: bolder; 
+
+  }
+  h4 {
+    
+    font-weight: bolder; 
+    text-decoration: #b22;
+    font-style: italic;
+}
+  

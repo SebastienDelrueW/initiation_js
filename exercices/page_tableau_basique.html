@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>UK punk bands</title>
+  <link rel="stylesheet" href="../css/page_tableau_basique.css">
+</head>
+<body>
+
+  <div class="tableaux">
+    <!--contenu tableau 1-->
+  
+  <table>
+    <caption>A summary of the UK's most famous punk bands</caption>
+    <thead>
+      <tr>
+        <th scope="col">Band</th>
+        <th scope="col">Year formed</th>
+        <th scope="col">No. of Albums</th>
+        <th scope="col">Most famous song</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Buzzcocks</th>
+        <td>1976</td>
+        <td>9</td>
+        <td>Ever fallen in love (with someone you shouldn't've)</td>
+      </tr>
+      <tr>
+        <th scope="row">The Clash</th>
+        <td>1976</td>
+        <td>6</td>
+        <td>London Calling</td>
+      </tr>
+      <tr>
+        <th scope="row">The Damned</th>
+        <td>1976</td>
+        <td>10</td>
+        <td>Smash it up</td>
+      </tr>
+      <tr>
+        <th scope="row">Sex Pistols</th>
+        <td>1975</td>
+        <td>1</td>
+        <td>Anarchy in the UK</td>
+      </tr>
+      <tr>
+        <th scope="row">Sham 69</th>
+        <td>1976</td>
+        <td>13</td>
+        <td>If the kids are united</td>
+      </tr>
+      <tr>
+        <th scope="row">Siouxsie and the Banshees</th>
+        <td>1976</td>
+        <td>11</td>
+        <td>Hong Kong Garden</td>
+      </tr>
+      <tr>
+        <th scope="row">Stiff Little Fingers</th>
+        <td>1977</td>
+        <td>10</td>
+        <td>Suspect Device</td>
+      </tr>
+      <tr>
+        <th scope="row">The Stranglers</th>
+        <td>1974</td>
+        <td>17</td>
+        <td>No More Heroes</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row" colspan="2">Total albums</th>
+        <td colspan="2">77</td>
+      </tr>
+    </tfoot>
+  </table>
+  </div>
+
+
+
+  <div class="tableaux">
+    <!--contenu tableau 2-->
+<hr>
+    
+    <table>
+      <!--titre du tableau : CAPTION 'les cellules sont fusionnées) -->
+      <caption>Ventes de la semaine</caption>
+      <!--en tête de colonnes du tableau-->
+      <thead>
+      <tr>
+      <!-- cellules d'en tête : TH table head-->
+          <th>Jour</th>
+          <th>Smartphones</th>
+          <th>Tablettes</th>
+          <th>Ordinateurs portables</th>
+      </tr>
+      </thead>
+       <!-- le corps du tableau : TBODY-->
+       <tbody>
+      <!--tr*5>td*4 : pour faire notre tableau de 5 rangées et 4 colonnes-->
+      <!--rangée de tableau : TR, table row -->
+      <tr>
+      <!-- cellules de tableau : TD, table data-->
+          <td>Lundi</td>
+          <td>20</td>
+          <td>3</td>
+          <td>5</td>
+      </tr>
+      <tr>
+          <td>Mardi</td>
+          <td>5</td>
+          <td>4</td>
+          <td>2</td>
+      </tr>
+      <tr>
+          <td>Mercredi</td>
+          <td>6</td>
+          <td>3</td>
+          <td>12</td>
+      </tr>
+      <tr>
+          <td>Jeudi</td>
+          <td>2</td>
+          <td>4</td>
+          <td>9</td>
+      </tr>
+      <tr>
+          <td>Vendredi</td>
+          <td>2</td>
+          <td>8</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>Samedi</td>
+          <td>10</td>
+          <td>10</td>
+          <td>10</td>
+      </tr>
+       </tbody>
+      <!-- le bas ou la fin du tableau : TFOOT les normes du WC3 mettent la balise tfoot avant la balise tbody-->
+      <tfoot>
+          <tr>      
+          <td>Total</td>
+          <td>35</td>
+          <td>22</td>
+          <td>28</td>
+          </tr>
+      </tfoot>
+  </table>
+ </div>
+
+  <hr>
+  <br><br><br><br>
+
+ <header>
+  <nav>
+      <a href="../01_base_js.html">les bases</a>
+      <a href="../02_les_variables.html">les variables</a>
+      <a href="../03_les_operateurs.html">les opérateurs</a>
+      <a href="../04_les_tableaux.html">les tableaux</a>
+      <a href="../05_incrementations.html">l'incrémentation</a>
+      <a href="../06_les_boucles.html">les boucles</a>
+      <a href="07_les_conditions.html">les conditions</a>
+      <a href="08_les_fonctions.html">les fonctions</a>
+      <a href="09_le_DOM.html">le DOM</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Les Opérateurs</h2>
+</main>
+
+<script src="questions_test.js"></script>
+
+      <br><a><strong>&ensp;C</strong>alculatrice<strong></strong></a><br><br>
+
+
+<script>
+      var a, b;
+      var SelectedOp="";
+      var OpClicked=false;
+      function entrer(x){
+      switch (x) {
+      case '1': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="1";
+      else document.getElementById("label").value+="1";
+      break;
+      case '2': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="2";
+      else document.getElementById("label").value+="2";
+      break;
+      case '3': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="3";
+      else document.getElementById("label").value+="3";
+      break;
+      case '4': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="4";
+      else document.getElementById("label").value+="4";
+      break;
+      case '5': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="5";
+      else document.getElementById("label").value+="5";
+      break;
+      case '6': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="6";
+      else document.getElementById("label").value+="6";
+      break;
+      case '7': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="7";
+      else document.getElementById("label").value+="7";
+      break;
+      case '8': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="8";
+      else document.getElementById("label").value+="8";
+      break;
+      case '9': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="9";
+      else document.getElementById("label").value+="9";
+      break;
+      case '0': if (document.getElementById("label").value=="0" || OpClicked==true) document.getElementById("label").value="0";
+      else document.getElementById("label").value+="0";
+      break;
+      case '.': document.getElementById(".").disabled=true;
+      document.getElementById("label").value+=".";
+      break;
+
+      }
+      OpClicked=false;
+      }
+
+      function faire(x){
+      document.getElementById(".").disabled=false;
+      OpClicked=true;
+      SelectedOp=x;
+      a=document.getElementById("label").value;
+      }
+
+      function calculer(){
+      var b=document.getElementById("label").value;
+      switch (SelectedOp) {
+      case '+': document.getElementById("label").value=parseFloat(a)+parseFloat(b); break;
+      case '-': document.getElementById("label").value=parseFloat(a)-parseFloat(b); break;
+      case '*': document.getElementById("label").value=parseFloat(a)*parseFloat(b); break;
+      case '/': if (b!=0) document.getElementById("label").value=parseFloat(a)/parseFloat(b);
+      else document.getElementById("label").value="impossible sur 0 !";
+      break;
+      }
+      SelectedOp="";
+      }
+
+      </script>
+      </head>
+
+<body>
+  <form>
+      <input type="text" value="0" id="label" readonly > <br/><br>
+      <input type="button" value="1" id="1" onclick="entrer('1');">
+      <input type="button" value="2" id="2" onclick="entrer('2');">
+      <input type="button" value="3" id="3" onclick="entrer('3');">
+      <input type="button" value="+" id="+" onclick="faire('+');"><br/>
+      <input type="button" value="4" id="4" onclick="entrer('4');">
+      <input type="button" value="5" id="5" onclick="entrer('5');">
+      <input type="button" value="6" id="6" onclick="entrer('6');">
+      <input type="button" value="-" id="-" onclick="faire('-');"><br/>
+      <input type="button" value="7" id="7" onclick="entrer('7');">
+      <input type="button" value="8" id="8" onclick="entrer('8');">
+      <input type="button" value="9" id="9" onclick="entrer('9');">
+      <input type="button" value="*" id="*" onclick="faire('*');"><br/>
+      <input type="button" value="0" id="0" onclick="entrer('0');">
+      <input type="button" value="." id="." onclick="entrer('.');">
+      <input type="button" value="=" id="=" onclick="calculer();">
+      <input type="button" value="/" id="/" onclick="faire('/');"><br/><br>
+      <input type="reset" value="C">
+  </form>
+  <hr>
+  <br><br><br><br><br><br><br><br>
+ 
+</body>
+</html>
