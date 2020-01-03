@@ -1,5 +1,5 @@
 //  1.Je vérifie toujours que ma page js et mon fichier html sont connectés :
-// alert('Salut JS');
+//alert('Salut JS');
 
 
 /* Les opérateurs arithmétiques */
@@ -43,7 +43,7 @@ console.log(resultat);
 
 //  Addition
 
-// je veux créer ma variable nb1 et je lui affecte une valeur 15 (avce le symbole =)
+// je veux créer ma variable nb1 et je lui affecte une valeur 15 (avec le symbole =)
 nb1 = 15;
 // première variante :
 // pour ajouter 5 à ma valeur de 15, je réaffecte à ma variable une nouvelle instruction :
