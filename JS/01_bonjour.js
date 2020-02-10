@@ -1,7 +1,7 @@
 /*******************
   Syntaxe de base
  * **************/
-//  1.Je vérifie toujours que ma page js et mon fichier hyml sont connectés :
+//  1.Je vérifie toujours que ma page js et mon fichier html sont connectés :
 // alert('Okay JS');
 
 // deux slashes pour un commentaire sur la ligne (ctrl + /)
@@ -19,9 +19,8 @@ ici un commentaire sur plusieurs lignes
 
 
 // alert('quel est ton nom ?JS');
- 
+
 var prenom = prompt('quel est ton Prénom ?');
 var nom = prompt('quel est ton Nom ?');
 
 alert('Bonjour' + "" + prenom + "" + nom);
-
