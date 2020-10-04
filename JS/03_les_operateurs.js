@@ -1,5 +1,5 @@
 //  1.Je vérifie toujours que ma page js et mon fichier html sont connectés :
-//alert('Salut JS');
+alert('Salut JS');
 
 
 /* Les opérateurs arithmétiques */
@@ -14,7 +14,7 @@ nb2 = 5;
 
 // L'addition de nb1 & nb2 avec l'opérateur " + "
 resultat = nb1 + nb2;
-console.log( resultat);
+console.log(resultat);
 
 // La soustraction de nb1 & nb2 avec l'opération " - "
 resultat = nb1 - nb2;
@@ -49,7 +49,7 @@ nb1 = 15;
 // pour ajouter 5 à ma valeur de 15, je réaffecte à ma variable une nouvelle instruction :
 // je lui dit que ma variable nb1 sera maintenant le résultat de ma valur de base (donc 15) auquel je lui rajoute 5 :
 /* ma variable    La valeur de référence      */
-        // nb1 =              nb1               + 5; //
+// nb1 =              nb1               + 5; //
 
 // nb1 = nb1 + 5; // ici on dit que le resultat final de nb1 est la somme de notre variable +5
 
@@ -59,9 +59,8 @@ nb1 = 15;
 // console.log(nb1);
 
 // deuxième variante
-nb1 += 5;// ce qui est équivalent à écrire nb1 = nb1 +5
+nb1 += 5; // ce qui est équivalent à écrire nb1 = nb1 +5
 console.log(nb1)
-/* Je peux procéder de la même manière pour tous les autres opérateurs arithmétiques :
-" + ", " - ",  " * ", " / " et " % " 
-*/
-
+    /* Je peux procéder de la même manière pour tous les autres opérateurs arithmétiques :
+    " + ", " - ",  " * ", " / " et " % " 
+    */

@@ -1,5 +1,5 @@
 //  1.Je vérifie toujours que ma page js et mon fichier html sont connectés :
-// alert('Salut JS');
+alert('Salut JS');
 // Déclarer un tableau INDEXE :
 // 1-
 var monTableau = []; // alt gr + 5
@@ -29,15 +29,15 @@ console.log(monTableau);
 // --Déclarer et affecter des valeurs à un objet.
 
 var Coordonnee = {
-    prenom : "Hugo",
-    nom : "LIEGEARD",
-    age : 82
+    prenom: "Hugo",
+    nom: "LIEGEARD",
+    age: 82
 };
 console.clear(); //permet d'effacer les lignes de débug qui précède le console.clear()
-console.log(Coordonnee);//j'affiche toutes les informations de mon tableau
-console.log(Coordonnee['prenom']);// je n'affiche que le prénom
-console.log(Coordonnee.nom);// je n'affiche que le nom
-console.log(Coordonnee.age);// je n'affiche que l'age
+console.log(Coordonnee); //j'affiche toutes les informations de mon tableau
+console.log(Coordonnee['prenom']); // je n'affiche que le prénom
+console.log(Coordonnee.nom); // je n'affiche que le nom
+console.log(Coordonnee.age); // je n'affiche que l'age
 
 //*--on va créer 2 tableaux indexé
 
@@ -46,7 +46,7 @@ var listeDeNom = ["MAMA", "BENALLAL", "LIEGEARD"];
 var Annuaire = [listeDePrenom, listeDeNom];
 
 console.log(Annuaire)
-document.write();//fonction native de JS qui permet d'inscrire un résultat directement sur la page html et non plus sur console
+document.write(); //fonction native de JS qui permet d'inscrire un résultat directement sur la page html et non plus sur console
 
 document.write(Annuaire[0][2] + " " + Annuaire[1][2] + " " + Annuaire[1][1] + " " + Annuaire[0][0]);
 document.write("<hr>");
@@ -84,44 +84,44 @@ console.log(AnnuaireDesStagiares);
 
 //--exemple à 3 dimensions
 
-var array3Dimension =[
-    {
+var array3Dimension = [{
         prenom: "Hugo",
         nom: "LIEGEARD",
-        coordonnees:{
-            email : "hugo.liegeard@lepoles.com",
-            tel:{ 
-                fixe : "0596 108 328",
-                fax :  "0596 108 632",
-                port : {
-                    prive : "07 83 97 10 15",
-                    pro : "07 83 97 15 15"
+        coordonnees: {
+            email: "hugo.liegeard@lepoles.com",
+            tel: {
+                fixe: "0596 108 328",
+                fax: "0596 108 632",
+                port: {
+                    prive: "07 83 97 10 15",
+                    pro: "07 83 97 15 15"
                 }
             },
-            adresse:{
+            adresse: {
                 ville: "DUCOS",
-                cp:"97224",
-                region:"Martinique",
+                cp: "97224",
+                region: "Martinique",
                 pays: {
-                    code:"FR",
-                    nom:"FRANCE"
+                    code: "FR",
+                    nom: "FRANCE"
                 }
-             }
+            }
         }
-    }//fermeture 1er {
-];//fin array3Dimension
+    } //fermeture 1er {
+]; //fin array3Dimension
 
 console.log(array3Dimension);
 console.log(array3Dimension[0].coordonnees.email);
-
+//document.write(array3Dimension[0].coordonnees.email); // hugo.liegeard@lepoles.com
 /*-----------------------
     AJOUTER UN ELEMENT 
 -----------------------*/
 
-var couleur = ['Rouge', 'Jaune','Vert'];
+var couleur = ['Rouge', 'Jaune', 'Vert'];
 console.clear();
 console.log(couleur);
 console.log(couleur.length); //.lenght me permet d'afficher sur ma console le nombre d'élément que contient mon tableau
+//document.write(couleur[1]); // jaune
 
 //Pour ajouter un élélment dans mon tableau, je fais appel à la fonction push()
 var nbElementsDeMonTableau = couleur.push('Violet');
@@ -130,7 +130,7 @@ console.log(nbElementsDeMonTableau);
 
 //pour ajouter un élément au début de mon tableau, je vais faire appel à la fonction unshift ()
 console.clear();
-var nbElementsDeMonTableau = couleur.unshift('Bisque','orange');
+var nbElementsDeMonTableau = couleur.unshift('Bisque', 'orange');
 console.log(couleur);
 console.log(nbElementsDeMonTableau);
 
@@ -140,9 +140,6 @@ console.log(couleur);
 console.log(nbElementsDeMonTableau);
 
 // Pour supprimer le premier élément de mon tableau, j'utilise la fonction shift()
-
 couleur.shift();
 console.log(couleur);
 console.log(nbElementsDeMonTableau);
-
-

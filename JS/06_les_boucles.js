@@ -1,11 +1,11 @@
 // les Boucles
 // //  1.Je vérifie toujours que ma page js et mon fichier html sont connectés :
-// alert('Okay JS');
+//alert('Okay JS');
 
 //Il y a différentes types de boucle, les plus utilisées sont la boucle "FOR" et la boucle "WHILE"
 //*-* Boucle FOR() :
-for(let i = 0; i<= 5; i++){
-    document.write('<p>Nombre de tour(s) de boucle(s) : <em style="background:yellow;">'+ i +'</em></p>');
+for (let i = 0; i <= 5; i++) {
+    document.write('<p>Nombre de tour(s) de boucle(s) : <em style="background:yellow;">' + i + '</em></p>');
 }
 document.write("<hr>");
 
@@ -20,7 +20,7 @@ En gros je donne l'instruction de faire un tour de boucle supplémentaire dans q
 // la boucle WHILE
 
 var j = 0;
-while (j <= 5){
+while (j <= 6) {
     document.write('<p>Nombre de tour(s) de boucle(s) : <em style="background:yellow;">' + j + '</em></p>');
     // ATTENTION A NE PAS OUBLIER L'INCREMENTATION
     j++;
@@ -44,26 +44,12 @@ var Prenoms = ['Jean', 'Marc', 'Matthieu', 'Luc', 'Pierre', 'Paul', 'Jacques', '
  */
 
 
- console.log(Prenoms);
-
+console.log(Prenoms);
 
 for (let i = 0; i < Prenoms.length; i++) {
     document.write('<p> Jean   Marc   Matthieu   Luc   Pierre   Paul  Jacques   Hugo   : <em style="background:yellow;">' + i + '</em></p>');
 
-console.log(Prenoms[i]);
+    console.log(Prenoms[i]);
 }
 
 document.write("<hr>");
-
-
-
-
-
-
-
-
-
-
-
-
-
